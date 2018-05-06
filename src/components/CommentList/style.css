@@ -1,0 +1,18 @@
+.comment-item{
+    margin:30px 0;
+}
+.form-control-filter{
+    padding-left:40px;
+    position:relative;
+}
+.fas {
+    font-weight: 900;
+    position: absolute;
+    z-index: 9999;
+    height: 20px;
+    width: 20px;
+    top: 57px;
+    left:50px;
+    opacity:0.5;
+
+}
