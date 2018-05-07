@@ -11,9 +11,9 @@ module.exports = {
         return res.status(200).send(comments);
     },
 
-    // VALIDATION DONE
+    
     createNewComment: async (req, res, next) => {
-        // Email && Password
+        
        
         const { email,message } = req.body;
         console.log('email',email)
