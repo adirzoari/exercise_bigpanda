@@ -3,7 +3,6 @@ const router = require('express-promise-router')() // already include try catch 
 
 const CommentController = require('../controllers/comment');
 
-// get all users
 router.route('/')
     .get(CommentController.index)
 
